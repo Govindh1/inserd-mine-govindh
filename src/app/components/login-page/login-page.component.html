@@ -1,0 +1,23 @@
+<div class="global-container">
+  <div class="card login-form">
+    <div class="card-body">
+      <h3 class="card-title text-center">Log in</h3>
+      <div class="card-text">
+        <form [formGroup]="loginForm">
+          <div class="form-group">
+            <label for="userid">User Id</label>
+            <input type="email" class="form-control form-control-sm" id="userid" formControlName="userId">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password</label>
+            <input type="password" class="form-control form-control-sm" id="pwd" formControlName="pwd">
+          </div>
+          <button type="submit" class="btn btn-primary btn-block" [disabled]="loginForm.invalid" (click)="signIn()">Sign in</button>
+          <div class="text-center">
+            <a (click)="close()" class="c-p">Close</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

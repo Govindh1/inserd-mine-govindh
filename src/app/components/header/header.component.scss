@@ -1,0 +1,43 @@
+.brand {
+  color: #00ffc4;
+}
+
+.f-right {
+  float: right;
+}
+
+.user-name {
+  font-size: 14px;
+  color: #78c71d;
+
+  ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+    right: 0px;
+  }
+
+  li {
+    width: 70px;
+    color: black;
+    cursor: pointer;
+  }
+
+}
+
+.user-name:hover {
+  ul {
+    display: block;
+  }
+}
+
+.nav-link {
+  cursor: pointer;
+  line-height: 14px;
+}
+
+.active {
+  background-color: #4b504f;
+  border-radius: 5px;
+  color: #ffffffe8;
+}

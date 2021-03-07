@@ -1,0 +1,38 @@
+.header-bg {
+    background-image: linear-gradient(to bottom,#45ca4a,#13b155,#11a725,#168b12,#236f10);
+    width: 100%;
+    position: relative;
+}
+
+.cover-top-center {
+    min-height: 40em;
+    display: grid;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+}
+
+.cover_txt {
+    max-width: 560px;
+    margin: 0 auto;
+    text-align: center; 
+}
+  .tag-cover {
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #e6e6e6; 
+}
+  .title-cover {
+    font-size: 45px;
+    line-height: 50px;
+    color: #fff;
+    margin: 25px 0;
+    display: inline-block; 
+}
+.para-cover {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    color: #d8d7d7; 
+}
